@@ -7,6 +7,7 @@ Online Bookstore
 -Spring Boot
 -JPA
 -maven 
+-HTML
 What can we do?
 1.Adding it to our table
 2.Editing it to our table
