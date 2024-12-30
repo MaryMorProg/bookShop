@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Книжный магазин</title>
+</head>
+<body>
+<h1>Наши книги</h1>
+<div id="book-list"></div>
+<script>
+    fetch('/api/books')
+        .then(response => response.json())
+        .then(data => {
+            const bookList = document.getElementById('book-list');
+            data.forEach(book => {
+                const bookItem = document.createElement('div');
+                bookItem.textContent = `${book.title} by ${book.author} - $${book.price}`;
+                bookList.appendChild(bookItem);
+            });
+        });
+</script>
+</body>
+</html>
