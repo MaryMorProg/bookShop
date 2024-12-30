@@ -1,9 +1,9 @@
-package com.magazin.Books.Backend.controllers;
+package com.magazin.book_shop.Backend.controllers;
 
-import com.magazin.Books.Backend.Entity.Book;
-import com.magazin.Books.Backend.Entity.Cart;
-import com.magazin.Books.Backend.repository.BookRepository;
-import com.magazin.Books.Backend.services.BookService;
+import com.magazin.book_shop.Backend.Entity.Book;
+import com.magazin.book_shop.Backend.Entity.Cart;
+import com.magazin.book_shop.Backend.repository.BookRepository;
+import com.magazin.book_shop.Backend.services.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

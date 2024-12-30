@@ -1,4 +1,4 @@
-package com.magazin.Books.Backend.Entity;
+package com.magazin.book_shop.Backend.Entity;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
