@@ -1,7 +1,7 @@
-package com.magazin.Books.Backend.repository;
+package com.magazin.book_shop.Backend.repository;
 
 
-import com.magazin.Books.Backend.Entity.Book;
+import com.magazin.book_shop.Backend.Entity.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

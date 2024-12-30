@@ -1,7 +1,7 @@
-package com.magazin.Books.Backend.services;
+package com.magazin.book_shop.Backend.services;
 
-import com.magazin.Books.Backend.Entity.Book;
-import com.magazin.Books.Backend.repository.BookRepository;
+import com.magazin.book_shop.Backend.Entity.Book;
+import com.magazin.book_shop.Backend.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.magazin.Books;
+package com.magazin.book_shop;
 
 public enum PaymentMethod {
     CREDIT_CARD,
